@@ -1,0 +1,318 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+  }
+  
+  img {
+    display: block;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  /* Header Bölümü */
+
+    .header{
+  border-bottom: 1px solid #e7e9fc;
+  }
+
+    .header-div {
+  display: flex;
+  }
+
+    .container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  }
+
+    .header-nav {
+  display: flex;
+  align-items: center;
+  }
+
+    .header-ul {
+  display: flex;
+  gap: 40px;
+  }
+
+    .address-ul {
+  display: flex;
+  gap: 40px;
+  }
+
+  .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+        margin-right: 76px;
+  }
+  
+  .logo-studio {
+    font-family: "Raleway", sans-serif;
+    color: #2e2f42;
+  }
+  
+  .logo-studio-foot {
+    font-family: "Raleway", sans-serif;
+    color: #f4f4fd;
+  }
+  
+  .nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+  }
+  
+  .nav-item:hover {
+    color: #404bbf;
+  }
+  
+  .nav-item:focus {
+    color: #404bbf;
+  }
+  
+  .contact {
+    font-style: normal;
+  }
+  
+  .contact-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .contact-item:hover {
+    color: #404bbf;
+  }
+  .contact-item:focus {
+    color: #404bbf;
+  }
+  
+/* Main Bölümü */
+
+/* Section-1 / Effective Solutions for Your Business / */
+     .section-one {
+    padding: 188px 0;
+  }
+
+
+      .btn {
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .section-solution {
+    background-color: #2e2f42;
+  }
+  
+  .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto;
+  }
+  
+  .order-button {
+    cursor: pointer;
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+
+  .order-button:hover {
+    background-color: #404bbf;
+  }
+
+  .order-button:focus {
+    background-color: #404bbf;
+  }
+
+  /* Section-2 / Our features / */
+      .section-two{
+        padding: 120px 0;
+  }
+
+      .section-two .container h2 {
+        overflow: hidden;
+      }
+
+      .section-two-ul {
+        display: flex;
+        gap: 24px;
+      }
+
+      .section-two-li {
+        width: calc((100% - 72px) / 4);
+      }
+
+      .section-two-h{
+        margin-bottom: 8px;
+      }
+  
+  .ourfeatures-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .ourfeatures-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+
+    /* Section-3 / Our Team / */
+      .section-three {
+        padding: 120px 0;
+      }
+
+      .section-three-h {
+        margin-bottom: 72px;
+      }
+
+      .section-three-ul {
+        display: flex;
+        gap: 24px;
+      }
+
+      .section-three-div {
+        padding: 32px 0;
+      }
+      
+      .section-three-div-h {
+        text-align: center;
+        margin-bottom: 8px;
+      }
+
+      .section-three-div-p {
+        text-align: center;
+      }
+
+  .team {
+    background-color: #f4f4fd;
+  }
+  
+  .team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+
+  .team-list {
+    background-color: #ffffff;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px; 
+  }
+  .team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .team-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  
+    /* Section-4 / Our Portfolio / */
+      .section-four {
+      padding: 120px 0;
+     }
+
+      .section-four-h {
+        margin-bottom: 72px;
+     }
+
+     .section-four-ul {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 24px;
+      row-gap: 48px;
+     }
+
+     .section-four-li {
+      flex-basis: calc((100% - 3 * 24px) / 4);
+     }
+
+     .section-four-div {
+      padding: 32px 16px;
+      border: 1px solid #e7e9fc;
+      border-top: none;
+      margin-bottom: 8px;
+     }
+
+
+  .portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  .portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .portfolio-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  
+/* Footer Bölümü */
+      .footer-logo{
+        display: inline-block;
+        margin-bottom: 16px;
+      }
+
+      .footer-p{
+        max-width: 264px;
+      }
+
+  .footer {
+    background-color: #2e2f42;
+    color: #2e2f42;
+    padding: 100px 0;
+  }
+  
+  .closing-text {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+  }
